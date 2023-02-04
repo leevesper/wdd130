@@ -9,9 +9,12 @@ nav a {
     color: black;
     text-align: center;
     text-decoration: none;
+    font-family: Trebuchet, Lato, Helvetica;
+    padding: 35px;
 }
 #hero-msg h1, #hero-mag h4 {
     text-align: center;
+    font-family: Georgia, Verdana, Arial;
 }
 .button-box {
     text-align: center;
@@ -19,8 +22,14 @@ nav a {
 main section {
     text-align: center;
 }
+main section img {
+    box-sizing: border-box;
+}
 body {
     background-color:aqua;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: bisque;
@@ -33,6 +42,10 @@ nav a:hover {
     color:white;
     background-color: blueviolet;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     color:black;
@@ -43,17 +56,24 @@ nav a:hover {
 }
 .msg {
     background-color: cornflowerblue;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer {
     color: black;
     background-color: cyan;
+    font-family: Trebuchet, Lato, Helvetica;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a {
     color:black;
     text-decoration: none;
+    font-family: Trebuchet, Lato, Helvetica;
 }
 footer p {
     font-size: 1.2em;
+    font-family: Trebuchet, Lato, Helvetica;
 }
 footer a:hover {
     color:white;
@@ -61,24 +81,50 @@ footer a:hover {
 footer p a:hover {
     text-decoration: underline;
 }
+footer .social img {
+    padding-top: 15px;
+}
 .home-title {
     color:black;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
     color:black;
+    font-family: Trebuchet, Lato, Helvetica;
 }
 .msg h2 {
     color:white;
+    font-family: Georgia, Verdana, Arial;
 }
 .msg p {
     color:white;
+    font-family: Trebuchet, Lato, Helvetica;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 .logo {
-    width: 80px;
+    width: 80px; 
+}
+#logo_link {
+    padding-top: 5px;
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img {
     width: 100%;
+}
+p h2 {
+    font-family: Trebuchet, Lato, Helvetica;
+}
+h2 {
+    margin: 0;
+}
+.rivers-card .camping-card .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid black;
 }
