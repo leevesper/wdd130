@@ -198,7 +198,33 @@ h2 {
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #6f7364;
 }
+/* Rives page */
+.river_page_h4 {
+    color: black;
+}
+#h1_title {
+    text-align: center;
+}
+.card-img-rivers {
+    height: 350px;
+    width: 350px;
+    border: 10px solid black;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.content-flexbox {
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+}
+.p-card-flex {
+    margin: 20px;
+}
+#disclamer {
+    text-align: center;
+}
 
+/* ////////////////////////////////////////////////////////////////////////////// */
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -238,6 +264,15 @@ h2 {
     }
     footer {
         margin-top: 25px;
+    }
+    .content-flexbox{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .card-img-rivers {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
             
