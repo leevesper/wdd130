@@ -9,65 +9,79 @@
 </head>
 <body>
     <header>
-        <img src="images/image2.jpg" alt="image for homepage" style="width:250px;height:300px;">
+        <img class="images" src="images/image2.jpg" alt="image for Rankings">
         <div id="header-bar">
             <!-- make it a link -->
-            <a href="index.html"><img src="images/stone_seagull_seagull_sculpture.jpg" alt="Logo image"></a>
+            <div id="logo-div">
+                <a href="index.html"><img id="logo-image" src="images/stone_seagull_seagull_sculpture.jpg" alt="Logo image"></a>
+                <div id="logo-text"><a id="logo-link-text" href="index.html">ST</a></div>
+            </div>
             <!-- <a href="default.asp"><img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;"></a> -->
-            <a href="index.html">Home</a> 
-            <a href="fleets-and-crews.html">Fleet and crews</a>                        
+            <a class="links" href="index.html">Home</a>
+            <a class="links" href="fleets-and-crews.html">Fleets and Crews</a>             
         </div>
-        <img src="images/image4.jpg" alt="image for homepage" style="width:250px;height:300px;">
+        <div id="title-div">
+            <h1 id="title">“Scallywag’s Tavern Billboard” </h1>
+            <br>
+            <h2 id="sub-title" >Rankings</h2>
+        </div>
+        <img class="images" src="images/image4.jpg" alt="image for Rankings">
     </header>
     <main>
-        <h1>“Scallywag’s Tavern Billboard” </h1>
-        <h2>Rankings</h2>
-        <p>
-            Information on the ranking page may include, but is not limited to, number request completed or failed, amount of plunder acquire, PvP win to lose ratios, current ranking, crew mortality rate and fame/infamy scores. Rankings were fleets and individual ships. Rankings for performance based on class of ship.
-        </p>
-        
-        <p>
-            Name: Rank: Bounty: Fame: Infame: Kills: Ships sunk: Ships captured: Quests completed: Deaths: Mutates: Moruings: Ports sacked: Overall score: Fleet strength: Numbers of ships in fleet: Total number of crew members: Total number of players: Affiliations: Ports controlled: Biggest rivals:        
-        </p>
-        <h3>Blood Clam</h3>
-        <div class="rankins-box">
-            <h4>Rank: 1</h4><h4>Bount: 1,500,516</h4><h4>Fame: 153</h4>
-            <h4>Infame:130</h4><h4>Ships sunk: 40</h4><h4>Ships captured: 39</h4>
-            <h4>Quests completed: 69</h4><h4>Deaths: 351</h4><h4>Mutates: 3</h4>
-            <h4>Moruings: 3</h4><h4>Ports sacked: 42</h4><h4>Overall score: 4654813</h4>
-            <h4>Fleet strength: 3551</h4><h4>Numbers of ships in fleet: 15</h4>
-            <h4>Total number of crew members: 180</h4><h4>Total number of players: 60</h4>
-            <h4>Affiliations: Pirates Alliance, Merchants Guild</h4><h4>Ports controlled: 5</h4><h4>Biggest rivals: YouTubes United</h4>
-        </div>
-        <h3>The Rum Appreciation Society</h3>
-        <div class="rankins-box">
-            <h4>Rank: 2</h4><h4>Bount: 1,431,684</h4><h4>Fame: 152</h4>
-            <h4>Infame: 426</h4><h4>Ships sunk: 38</h4><h4>Ships captured: 50</h4>
-            <h4>Quests completed: 12</h4><h4>Deaths: 354</h4><h4>Mutates: 0</h4>
-            <h4>Moruings: 23</h4><h4>Ports sacked: 46</h4><h4>Overall score: 453702</h4>
-            <h4>Fleet strength: 3018</h4><h4>Numbers of ships in fleet: 7</h4>
-            <h4>Total number of crew members: 120</h4><h4>Total number of players: 7</h4>
-            <h4>Affiliations: Merchants Guild</h4><h4>Ports controlled: 50</h4><h4>Biggest rivals: Crews of Chaos</h4>
-        </div>
-        <h3>YouTubes United</h3>
-        <div class="rankins-box">
-            <h4>Rank: 3</h4><h4>Bount: 1,358,516</h4><h4>Fame: 152</h4>
-            <h4>Infame: 343</h4><h4>Ships sunk: 60</h4><h4>Ships captured: 9</h4>
-            <h4>Quests completed: 46</h4><h4>Deaths: 3545</h4><h4>Mutates: 139</h4>
-            <h4>Moruings: 50</h4><h4>Ports sacked: 200</h4><h4>Overall score: 441856</h4>
-            <h4>Fleet strength: 3515</h4><h4>Numbers of ships in fleet: 15</h4>
-            <h4>Total number of crew members: 300</h4><h4>Total number of players: 8</h4>
-            <h4>Affiliations: Pirates Alliance</h4><h4>Ports controlled: 14</h4><h4>Biggest rivals: Crews of Chaos</h4>
-        </div>
-        <h3>Crews of Chaos</h3>
-        <div class="rankins-box">
-            <h4>Rank: 4</h4><h4>Bount: 16846351683</h4><h4>Fame: 25</h4>
-            <h4>Infame: 51656135</h4><h4>Ships sunk: 1681</h4><h4>Ships captured: 4</h4>
-            <h4>Quests completed: 1</h4><h4>Deaths: 10543</h4><h4>Mutates: 15351</h4>
-            <h4>Moruings: 105</h4><h4>Ports sacked: 735</h4><h4>Overall score: 440642</h4>
-            <h4>Fleet strength: 3096</h4><h4>Numbers of ships in fleet: 5</h4>
-            <h4>Total number of crew members: 150</h4><h4>Total number of players: 50</h4>
-            <h4>Affiliations: None</h4><h4>Ports controlled: 0</h4><h4>Biggest rivals: Crews of Chaos (They keep attacking their own ships.)</h4>
+        <div id="main-p-fleet-and-crews">
+            <div id="main-content-fleet-and-crews">
+                <p>
+                    Information on the ranking page may include, but is not limited to, number request completed or failed, amount of plunder acquire, PvP win to lose ratios, current ranking, crew mortality rate and fame/infamy scores. Rankings were fleets and individual ships. Rankings for performance based on class of ship.
+                </p>
+                <br>
+                <h3>Blood Clam</h3>
+                <h4>Rank: 1</h4>
+                <div class="rankings-box">
+                    <h4>Bount: 1,500,516</h4><h4>Fame: 153</h4>
+                    <h4>Infame:130</h4><h4>Ships sunk: 40</h4><h4>Ships captured: 39</h4>
+                    <h4>Quests completed: 69</h4><h4>Deaths: 351</h4><h4>Mutates: 3</h4>
+                    <h4>Moruings: 3</h4><h4>Ports sacked: 42</h4><h4>Overall score: 4,654,813</h4>
+                    <h4>Fleet strength: 3,551</h4><h4>Numbers of ships in fleet: 15</h4>
+                    <h4>Total number of crew members: 180</h4><h4>Total number of players: 60</h4>
+                    <h4>Affiliations: Pirates Alliance, Merchants Guild</h4><h4>Ports controlled: 5</h4><h4>Biggest rivals: YouTubes United</h4>
+                </div>
+                <br>
+                <h3>The Rum Appreciation Society</h3>
+                <h4>Rank: 2</h4>
+                <div class="rankings-box">
+                    <h4>Bount: 1,431,684</h4><h4>Fame: 152</h4>
+                    <h4>Infame: 426</h4><h4>Ships sunk: 38</h4><h4>Ships captured: 50</h4>
+                    <h4>Quests completed: 12</h4><h4>Deaths: 354</h4><h4>Mutates: 0</h4>
+                    <h4>Moruings: 23</h4><h4>Ports sacked: 46</h4><h4>Overall score: 453,702</h4>
+                    <h4>Fleet strength: 3,018</h4><h4>Numbers of ships in fleet: 7</h4>
+                    <h4>Total number of crew members: 120</h4><h4>Total number of players: 7</h4>
+                    <h4>Affiliations: Merchants Guild</h4><h4>Ports controlled: 50</h4><h4>Biggest rivals: Crews of Chaos</h4>
+                </div>
+                <br>
+                <h3>YouTubes United</h3>
+                <h4>Rank: 3</h4>
+                <div class="rankings-box">
+                    <h4>Bount: 1,358,516</h4><h4>Fame: 152</h4>
+                    <h4>Infame: 343</h4><h4>Ships sunk: 60</h4><h4>Ships captured: 9</h4>
+                    <h4>Quests completed: 46</h4><h4>Deaths: 3,545</h4><h4>Mutates: 139</h4>
+                    <h4>Moruings: 50</h4><h4>Ports sacked: 200</h4><h4>Overall score: 441,856</h4>
+                    <h4>Fleet strength: 3,515</h4><h4>Numbers of ships in fleet: 15</h4>
+                    <h4>Total number of crew members: 300</h4><h4>Total number of players: 8</h4>
+                    <h4>Affiliations: Pirates Alliance</h4><h4>Ports controlled: 14</h4><h4>Biggest rivals: Crews of Chaos</h4>
+                </div>
+                <br>
+                <h3>Crews of Chaos</h3>
+                <h4>Rank: 4</h4>
+                <div class="rankings-box">
+                    <h4>Bount: 16,846,351,683</h4><h4>Fame: 25</h4>
+                    <h4>Infame: 51,656,135</h4><h4>Ships sunk: 1,681</h4><h4>Ships captured: 4</h4>
+                    <h4>Quests completed: 1</h4><h4>Deaths: 10,543</h4><h4>Mutates: 15,351</h4>
+                    <h4>Moruings: 105</h4><h4>Ports sacked: 735</h4><h4>Overall score: 440,642</h4>
+                    <h4>Fleet strength: 3,096</h4><h4>Numbers of ships in fleet: 5</h4>
+                    <h4>Total number of crew members: 150</h4><h4>Total number of players: 50</h4>
+                    <h4>Affiliations: None</h4><h4>Ports controlled: 0</h4><h4>Biggest rivals: Crews of Chaos (They keep attacking their own ships.)</h4>
+                </div>
+            </div>
         </div>
 
     </main>
