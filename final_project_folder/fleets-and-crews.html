@@ -9,51 +9,91 @@
 </head>
 <body>
     <header>
-        <img src="images/image3.jpg" alt="image for homepage" style="width:250px;height:300px;">
+        <img class="images" src="images/image3.jpg" alt="image for Fleet and Crews">
         <div id="header-bar">
             <!-- make it a link -->
-            <a href="index.html"><img src="images/stone_seagull_seagull_sculpture.jpg" alt="Logo image"></a>
+            <div id="logo-div">
+                <a href="index.html"><img id="logo-image" src="images/stone_seagull_seagull_sculpture.jpg" alt="Logo image"></a>
+                <div id="logo-text"><a id="logo-link-text" href="index.html">ST</a></div>
+            </div>
             <!-- <a href="default.asp"><img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;"></a> -->
-            <a href="index.html">Home</a>
-            <a href="rankings.html">Rankings</a>             
+            <a class="links" href="index.html">Home</a>
+            <a class="links" href="rankings.html">Rankings</a>             
         </div>
-        <img src="images/image6.jpg" alt="image for homepage" style="width:250px;height:300px;">
+        <div id="title-div">
+            <h1 id="title">“Scallywag’s Tavern Billboard” </h1>
+            <br>
+            <h2 id="sub-title" >Fleets and Crews</h2>
+        </div>
+        <img class="images" src="images/image6.jpg" alt="image for Fleet and Crews">
     </header>
     <main>
-        <h1>“Scallywag’s Tavern Billboard” </h1>
-        <h3>Fleets and Crews</h3>
-      <p>
-        Crew biography and recruitment info. 
-        The information player on fleets and crews provide to the site may include, but is not limited to, the number of ships in the fleet, the number of crew on each ship, activity rates of players (both for fleets and ships), which factions fleets and ships are affiliated with and hunted by, bounties that have been accumulated (both for captains and fleets), autobiographies of the captains, admirals and fleets as a whole and recruitment pitches for prospective crewmembers and captains.        
-      </p>
-      <h4>Blood Clam</h4>
-      <h4>Number of ships and players:</h4>
-      <h4>15 ships; 60 players.</h4>
-      <h4>Recruitment:</h4>
-      <p>
-        Considered to be one of the most active groups on the game servers, the Blood Clam fleet prioritizes individuality, understanding compassion and openness among the inner circle and near religious adherence to hierarchy among lower ranked members.
-      </p>
-      <h4>The Rum Appreciation Society</h4>
-      <h4>Number of ships and players:</h4>
-      <h4>7 ships; 6 players.</h4>
-      <h4>Recruitment:</h4>
-      <p> 
-          A fleet created to players who all have a wish to avoid the social stigmatism that comes with the appreciation of a historic beverage. (It should be noted that for some reason their ships never sail in a straight line).
-      </p>
-      <h4>YouTubes United</h4>
-      <h4>Number of ships and players:</h4>
-      <h4>8 ships; 300 players.</h4>
-      <h4>Recruitment:</h4>
-      <p> 
-        YouTubes United is a group of players that work together to help create content for their individual channels on YouTube.  The group is an active fleet and more players are encouraged to work together, for the sake of creating content, players are encouraged to act in eccentric ways to help create entertaining episodes for the players who are creating content for the YouTube channels.
-      </p>
-      <h4>Crews of Chaos</h4>
-      <h4>Number of ships and players:</h4>
-      <h4>5 ships; 50 players. (Note. These numbers change by the hour.)</h4>
-      <h4>Recruitment:</h4>
-      <p>
-        Believing anarchy is the only way to live, the crews of chaos fleet is devoted to doing everything within their power to cause as much mayhem on the servers as possible. Including but not limited to allying with both sides of a battle between fleets, ramming into Allied ships and then blowing themselves up, inciting riots at ports, plundering merchant ships and then dumping a cargo, working to establish good relations with factions and that attacking them and then at the end of a day of hard work, having one big battle Royale among themselves.
-      </p>        
+        <!-- <h1>“Scallywag’s Tavern Billboard” </h1>
+        <h3>Fleets and Crews</h3> -->
+        <!-- <button onclick="myFunction()">Try it</button>
+        <div id="test-div">test1</div> -->
+
+
+
+        <div id="main-p-fleet-and-crews">
+            <div id="main-content-fleet-and-crews">
+                <p>
+                Crew biography and recruitment info. 
+                The information player on fleets and crews provide to the site may include, but is not limited to, the number of ships in the fleet, the number of crew on each ship, activity rates of players (both for fleets and ships), which factions fleets and ships are affiliated with and hunted by, bounties that have been accumulated (both for captains and fleets), autobiographies of the captains, admirals and fleets as a whole and recruitment pitches for prospective crewmembers and captains.        
+                </p>
+                
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">Select Fleets</button>
+                    <div id="myDropdown" class="dropdown-content">
+                    <button onclick="hideElements(1)" class="dropbtn">All Fleets and Crews</button>
+                    <button onclick="hideElements(2)" class="dropbtn">Blood Clam</button>
+                    <button onclick="hideElements(3)" class="dropbtn">The Rum Appreciation Society</button>
+                    <button onclick="hideElements(4)" class="dropbtn">YouTubes United</button>
+                    <button onclick="hideElements(5)" class="dropbtn">Crews of Chaos</button>
+                    </div>
+                </div>
+                <br>
+            <div id="all-content-div">                    
+                <div id="content-div1">
+                    <h4>Blood Clam</h4>
+                    <h4>Number of ships and players:</h4>
+                    <h4>15 ships; 60 players.</h4>
+                    <h4>Recruitment:</h4>
+                    <p>
+                    Considered to be one of the most active groups on the game servers, the Blood Clam fleet prioritizes individuality, understanding compassion and openness among the inner circle and near religious adherence to hierarchy among lower ranked members.
+                    </p>
+                </div>
+                <div id="content-div2">
+                    <h4>The Rum Appreciation Society</h4>
+                    <h4>Number of ships and players:</h4>
+                    <h4>7 ships; 6 players.</h4>
+                    <h4>Recruitment:</h4>
+                    <p> 
+                    A fleet created to players who all have a wish to avoid the social stigmatism that comes with the appreciation of a historic beverage. (It should be noted that for some reason their ships never sail in a straight line).
+                    </p>
+                </div>
+                <div id="content-div3">
+                    <h4>YouTubes United</h4>
+                    <h4>Number of ships and players:</h4>
+                    <h4>8 ships; 300 players.</h4>
+                    <h4>Recruitment:</h4>
+                    <p> 
+                    YouTubes United is a group of players that work together to help create content for their individual channels on YouTube.  The group is an active fleet and more players are encouraged to work together, for the sake of creating content, players are encouraged to act in eccentric ways to help create entertaining episodes for the players who are creating content for the YouTube channels.
+                    </p>
+                </div>
+                <div id="content-div4">
+                    <h4>Crews of Chaos</h4>
+                    <h4>Number of ships and players:</h4>
+                    <h4>5 ships; 50 players. (Note. These numbers change by the hour.)</h4>
+                    <h4>Recruitment:</h4>
+                    <p>
+                    Believing anarchy is the only way to live, the crews of chaos fleet is devoted to doing everything within their power to cause as much mayhem on the servers as possible. Including but not limited to allying with both sides of a battle between fleets, ramming into Allied ships and then blowing themselves up, inciting riots at ports, plundering merchant ships and then dumping a cargo, working to establish good relations with factions and that attacking them and then at the end of a day of hard work, having one big battle Royale among themselves.
+                    </p>
+                </div>
+            </div>
+            </div>
+        </div>
+
     </main>
     <footer>        
         <!-- Code, except for the site plan link and part of the <p> tag text, was taken from 'Whitewater Rafting Vacations' project assignment -->
@@ -71,5 +111,67 @@
             </a>
         </div>
     </footer>
+    <script>
+
+
+        function hideElements(x) {
+            var div1Content = document.getElementById("content-div1");
+            var div2Content = document.getElementById("content-div2");
+            var div3Content = document.getElementById("content-div3");
+            var div4Content = document.getElementById("content-div4");
+            switch(x) {
+                case 1:
+                    div1Content.style.display = "block";
+                    div2Content.style.display = "block";
+                    div3Content.style.display = "block";
+                    div4Content.style.display = "block";
+                    break;
+                case 2:
+                    div1Content.style.display = "block";
+                    div2Content.style.display = "none";
+                    div3Content.style.display = "none";
+                    div4Content.style.display = "none";
+                    break;
+                case 3:
+                    div1Content.style.display = "none";
+                    div2Content.style.display = "block";
+                    div3Content.style.display = "none";
+                    div4Content.style.display = "none";
+                    break;
+                case 4:
+                    div1Content.style.display = "none";
+                    div2Content.style.display = "none";
+                    div3Content.style.display = "block";
+                    div4Content.style.display = "none";
+                    break;
+                case 5:
+                    div1Content.style.display = "none";
+                    div2Content.style.display = "none";
+                    div3Content.style.display = "none";
+                    div4Content.style.display = "block";
+                    break;                
+            }
+        }
+        /* When the user clicks on the button,
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+        // Close the dropdown menu if the user clicks outside of it
+        window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+
+    </script>
 </body>
 </html>
